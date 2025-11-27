@@ -28,7 +28,7 @@ export default function Home() {
           </h3>
           <pre className="bg-slate-900 text-green-400 rounded p-4 overflow-x-auto">
 {`{
-  "posts": "Your scraped social media posts text here"
+  "posts": "..."
 }`}
           </pre>
 
@@ -37,44 +37,10 @@ export default function Home() {
           </h3>
           <pre className="bg-slate-900 text-green-400 rounded p-4 overflow-x-auto text-xs">
 {`{
-  "executive_summary": {
-    "key_topics": ["topic1", "topic2"],
-    "weekly_angle": "Main insight",
-    "top_engagement_opportunities": ["opportunity1"]
-  },
-  "themes": [
-    {
-      "theme": "Theme name",
-      "whats_happening": "Description",
-      "rising_keywords": ["keyword1"],
-      "content_hooks": ["hook1"],
-      "ctas": ["cta1"]
-    }
-  ],
-  "engagement_targets": [
-    {
-      "creator_handle": "@username",
-      "platform": "Platform name",
-      "post_link": "URL",
-      "summary": "Post summary",
-      "recommended_engagement": "How to engage",
-      "pain_point_match": "Pain point"
-    }
-  ]
+  
+  this format - Abdullahi
 }`}
           </pre>
-        </div>
-
-        <div className="bg-blue-50 border border-blue-200 rounded-lg p-6">
-          <h3 className="text-lg font-semibold text-blue-900 mb-3">
-            Integration Guide
-          </h3>
-          <ol className="list-decimal list-inside space-y-2 text-blue-900">
-            <li>Configure your scraping tools (Apify, Reddit API, YouTube API)</li>
-            <li>Set up Make/Zapier to collect scraped text</li>
-            <li>Send POST request to this endpoint with scraped content</li>
-            <li>Receive structured insights for your filmmaker community</li>
-          </ol>
         </div>
       </div>
     </div>
